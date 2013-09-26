@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/index' do
-  "Weather Compare"
+get '/' do
+  haml :index
 end
